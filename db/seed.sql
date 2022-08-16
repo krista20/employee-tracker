@@ -1,5 +1,6 @@
 use employees;
 
+-- Listing out department name & their values/titles
 INSERT INTO department
     (name)
 VALUES
@@ -8,6 +9,7 @@ VALUES
     ('Finance'),
     ('Legal');
 
+-- Listing out role titles & their values
 INSERT INTO role
     (title, salary, department_id)
 VALUES
