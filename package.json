@@ -4,5 +4,23 @@
     "inquirer": "^9.1.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.19"
-  }
+  },
+  "name": "employee-tracker",
+  "description": "## Summary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krista20/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krista20/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/krista20/employee-tracker#readme"
 }
