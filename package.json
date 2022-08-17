@@ -6,10 +6,9 @@
     "nodemon": "^2.0.19"
   },
   "name": "employee-tracker",
-  "description": "## Summary",
+  "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
