@@ -1,4 +1,4 @@
-use employees;
+use employee;
 
 -- Listing out department name & their values/titles
 INSERT INTO department
@@ -21,3 +21,15 @@ VALUES
     ('Accountant', 125000, 3),
     ('Legal Team Lead', 250000, 4),
     ('Lawyer', 190000, 4);
+
+
+ -- Listing out role titles & their values
+ INSERT INTO employee
+    (first_name, last_name, role_id, manager_id)
+VALUES
+    ('Dorthy', 'Gale', 1, 1),
+    ('Scare', 'Crow', 2, 2),
+    ('Tin', 'Man', 3, 3),
+    ('Cowardly', 'Lion', 4, 4),
+    ('Wicked', 'Witch', 5, 5),
+    ('Great', 'Wizard', 6, 6);
