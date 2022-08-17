@@ -1,5 +1,14 @@
-const inquirer = require('inquirer');
+const mysql = require("mysql2");
+const express = require('express');
+const inquirer = require("inquirer");
 const connection = require("./db/connection");
+const cTable = require("console.table");
+
+//connecting db
+connection.connect((err) => {
+    if (err) throw err;
+    start();
+});
 
  // WHEN APPLICATION STARTS:
 const start = async () => {
@@ -22,7 +31,7 @@ const start = async () => {
         })
         // determine based on response
         .then((response) => {
-            const {choices} = answers;
+            const {choices} = response;
 
             if (choices === 'view all departments') {
                 viewAllDepartments();
@@ -47,5 +56,10 @@ const start = async () => {
             }
         });
 };
+
+// view all departments
+
+
+
 
 start();
